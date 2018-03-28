@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Michael Roy</title>
+		<!-- link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" / -->
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta name="robots" content="all" />
+		<meta name="MSSmartTagsPreventParsing" content="true" />
+		<meta http-equiv="imagetoolbar" content="false" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<style>
+			* { padding: 0; margin: 0; }
+			body { background-color: #333; }
+			p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+			a { color: #da9a9a; font-weight: bold; text-decoration: none; border-bottom: 0px solid #da9a9a; }
+			a:hover { transition: all 0.2s ease-in-out; opacity: 0.7; border-bottom: 0px solid #ed1313; }
+			#monogram { width: 100px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
+			#monogram img { width: 50px; }
+			#about { 
+				width: 360px;
+				padding: 3em;
+				margin: -35px 50px 0 auto !important;
+				background-color: rgba(0, 0, 0, 0.5); }
+			@media (max-width: 767px) {
+				#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
+				#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+				background-image { opacity: 0.2; }
+		}
+		ul {overflow:auto;}
+		ul li {
+			list-style-type: none;
+			float: left;
+		}
+		ul li a i {
+			background: #fff;
+			color: #333;
+			width: 40px; 
+			height: 33px;
+			border-radius: 20px;
+			font-size: 25px;
+			text-align: center;
+			margin-right: 10px;
+			padding-top:15%;
+			transition: all 0.2s ease-in-out;
+			margin-bottom: 10px;
+		}
+		ul li a i:hover {
+			opacity: 0.7;
+		}
+		i {border-bottom: none;}
+		</style>
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="monogram">
+			<img src="imgs/logo.png">
+		</div>
+		<div id="about">
+			<ul>
+				<li><a href="http://instagram.com/mikelroy"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/mikelroy/"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="http://twitter.com/mikelroy"><i class="fa fa-twitter"></i></a></li>
+			</ul>
+			<p>Michael Roy is a Vancouver-based strategist with nearly a decade of experience in digital and strategic communications.</p>
+			<p>Currently serving as <a href="http://www.pointblankcreative.ca">Director of Research and Strategy at Point Blank Creative</a>, Michael served as Digital Director for <a href="http://www.ndp.ca">Canada’s NDP</a> during the 2015 election. His team <a href="http://www.cbc.ca/news/politics/canada-election-2015-ndp-fundraising-record-1.3252990">set new national fundraising records</a> and mobilized <a href="http://dailyhive.com/vancouver/photos-mulcair-vancouver-rally-2015/">tens of thousands of volunteers and supporters</a> across the country.</p>
+			<p>Prior to his time in Ottawa Michael served as Director of Communications for the <a href="http://www.bcndp.ca">BC NDP</a>, where he directed <a href="https://www.youtube.com/watch?v=YQ0Yg74aKfw">award-winning ad campaigns</a>, developed communications strategies for <a href="http://www.vancouversun.com/opinion/columnists/candidate+wins+Chilliwack+Hope+election/6488948/story.html">breakthrough by-elections</a> and modernized the party’s communications tactics. Michael has worked on election campaigns and referenda at the municipal, provincial and federal level.</p>
+			<p>When he's not at work (which his partner Rachel contends is much too rare), Michael can be found in the kitchen, behind the lens of his camera, or playing with their dog <a href="https://www.instagram.com/sula.dog/">Sula</a>.</p>
+		</div>
+		
+		<!--include jquery & backstretch-->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+		<script type="text/javascript">
+		$(function(){
+			$(window).resize(function(){
+				if($(this).width() >= 767){
+					$.backstretch("imgs/mr_background.jpg", {speed: 150});
+				}
+			})
+			.resize();//trigger resize on page load
+		});
+		</script>
+		
+		
+		
+	</body>
+</html>
