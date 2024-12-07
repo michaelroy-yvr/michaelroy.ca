@@ -1,1 +1,0 @@
-# michaelroy.ca
